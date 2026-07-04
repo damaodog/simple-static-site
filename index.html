@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>个人作品页</title>
+    <meta name="description" content="一个简洁的个人静态网站，可部署到 GitHub Pages。">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="返回首页">Hello.dev</a>
+      <nav class="nav" aria-label="主导航">
+        <a href="#work">作品</a>
+        <a href="#about">关于</a>
+        <a href="#contact">联系</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="hero-content">
+          <p class="eyebrow">静态网站模板</p>
+          <h1>把你的项目、简介和联系方式放到一个清爽页面里。</h1>
+          <p class="lede">
+            这是一个适合 GitHub Pages 的纯静态网站：没有后端、没有复杂依赖，上传即可访问。
+          </p>
+          <div class="actions">
+            <a class="button primary" href="#work">查看作品</a>
+            <a class="button secondary" href="#contact">联系我</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="work" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Featured work</p>
+          <h2>精选作品</h2>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <span class="project-index">01</span>
+            <h3>项目展示</h3>
+            <p>展示你的 App、网站、设计稿或课程项目，写清楚它解决了什么问题。</p>
+          </article>
+          <article class="project-card">
+            <span class="project-index">02</span>
+            <h3>学习记录</h3>
+            <p>记录技术栈、学习路径和阶段成果，让访问者快速理解你的能力范围。</p>
+          </article>
+          <article class="project-card">
+            <span class="project-index">03</span>
+            <h3>个人品牌</h3>
+            <p>放上你的定位、服务方向、社交链接和联系方式，方便别人找到你。</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="about" class="split-section">
+        <div>
+          <p class="eyebrow">About</p>
+          <h2>简单、快速、易修改。</h2>
+        </div>
+        <p>
+          你可以直接编辑这个页面里的文字，把标题、项目和联系方式换成自己的内容。
+          页面使用 HTML、CSS 和少量 JavaScript 写成，适合部署在 GitHub Pages。
+        </p>
+      </section>
+
+      <section id="contact" class="contact-section">
+        <p class="eyebrow">Contact</p>
+        <h2>准备好让别人看到你的页面了吗？</h2>
+        <a class="contact-link" href="mailto:hello@example.com">hello@example.com</a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span id="year"></span>
+      <span>Built for GitHub Pages</span>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
